@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  width: 300px;
+  margin: 0 auto;
+
+}
+h3{
+  text-decoration:underline black 5px;
+}
+li{
+  list-style: none;
+  background-color:blue;
+  margin-bottom: 5px;
+  width: 200px;
+  padding: 5px;
+  color: white;
+  border-radius: 6px;
+  position:relative;
+  font-weight: bold;
+
+}
+.del{
+  margin-left: 8px;
+  position: absolute;
+  right: 0;
+  margin-right: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+
+  
+}
+.btn{
+  margin-left: 5px;
+  background-color: blue;
+  border: none;
+  padding: 5px;
+  color: white;
+  font-size: 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.btn:hover{
+  background-color: lightblue;
+}
+input{
+  padding: 6px;
+  border: solid 2px blue;
+  border-radius: 6px;
+}
